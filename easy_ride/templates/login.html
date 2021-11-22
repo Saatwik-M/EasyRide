@@ -1,0 +1,17 @@
+<!-- Displays the form for loging in -->
+<!-- {% extends "base.html" %}  <!-- Displays the Navbar -->
+{% block content %}
+  <form method="POST" class="text-center">
+    {{ form.hidden_tag() }}
+    <img class="mb-4" src="static/img/logo.png" alt="" width="72" height="72">
+    <div class="form-floating mb-3">
+      {{ form.email }}
+      {{ form.email.label }}
+    </div>
+    <div class="form-floating mb-3">
+      {{ form.password }}
+      {{ form.password.label }}
+    </div>
+    {{ form.submit }}
+  </form>
+{% endblock %} -->
